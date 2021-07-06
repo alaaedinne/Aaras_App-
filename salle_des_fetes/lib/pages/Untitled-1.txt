@@ -1,0 +1,28 @@
+ floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: Icon(Icons.add),
+      ),
+      Container(
+        decoration: BoxDecoration(color: Colors.amber),
+        width: 200,
+        height: 100,
+        child: Row(
+          children: [Icon(Icons.add), Text("Create your salle")],
+        ),
+      ),
+ Container(
+              width: double.infinity,
+              height: 430,
+              child: Stack(
+                children: [
+                  Positioned(
+                    bottom: 0,
+                    left: 10,
+                    child: Image.asset(
+                      "Assets/images.jpeg",
+                      fit: BoxFit.fill,
+                    ),
+                  )
+                ],
+              ),
+            ),
